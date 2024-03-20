@@ -139,7 +139,7 @@ if "past" not in st.session_state:
 user_name = st.sidebar.text_input("Your Name:", key="user_name")
 agriculture_type = st.sidebar.selectbox("Type of Agriculture:", ["", "Organic", "Conventional", "Biodynamic"], key="agriculture_type")
 
-welcome_message = f"Hello, {user_name}! I am ECO-AGRI BOT, and I'm here to help you with eco-friendly farming methods and alternatives to chemical pesticides and fertilizers. I see that you are interested in or practicing {agriculture_type} agriculture. Let's discuss how I can help you further."
+welcome_message = f"Hello, {user_name}! I am AgroIntel-Chatbot, and I'm here to help you with eco-friendly farming methods and alternatives to chemical pesticides and fertilizers. I see that you are interested in or practicing {agriculture_type} agriculture. Let's discuss how I can help you further."
 
 # Function to generate response
 def generate_response(query):
