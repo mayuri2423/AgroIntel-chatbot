@@ -5,3 +5,4 @@ unstructured[local-inference]
 streamlit
 streamlit-chat
 cohere
+gunicorn
